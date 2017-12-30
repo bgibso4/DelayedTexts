@@ -1,0 +1,62 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.ben.delayedtexts.MessageScreen">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!--<android.support.design.widget.TextInputLayout-->
+            <!--android:id="@+id/textMessag"-->
+            <!--android:layout_width="348dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_marginEnd="8dp"-->
+            <!--android:layout_marginStart="8dp"-->
+            <!--android:layout_marginTop="72dp"-->
+            <!--app:layout_constraintEnd_toEndOf="parent"-->
+            <!--app:layout_constraintStart_toStartOf="parent"-->
+            <!--app:layout_constraintTop_toTopOf="parent">-->
+
+            <!--<EditText-->
+                <!--android:id="@+id/textMessage"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@layout/rounded_border_edittext"-->
+                <!--android:hint="Message"-->
+                <!--android:inputType="text" />-->
+        <!--</android.support.design.widget.TextInputLayout>-->
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="165dp"
+            android:layout_height="37dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginTop="28dp"
+            android:text="Enter Message"
+            android:textSize="24sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/textMessage"
+            android:layout_width="324dp"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="36dp"
+            android:layout_marginTop="88dp"
+            android:background="@layout/rounded_border_edittext"
+            android:ems="10"
+            android:hint="Message"
+            android:inputType="text|textShortMessage|textLongMessage"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.435"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </android.support.constraint.ConstraintLayout>
+</FrameLayout>
